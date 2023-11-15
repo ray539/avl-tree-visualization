@@ -1,7 +1,6 @@
 import {
   CompareWithInstruction,
   CreateNodeInstruction,
-  MoveNodeInstruction,
   RotationInstruction,
   ValueFoundInstruction,
 } from "../BinaryTree";

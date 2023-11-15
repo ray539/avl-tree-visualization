@@ -1,4 +1,4 @@
-import { Camera, Coord, Coord3 } from "../common";
+import { Camera, Coord } from "../common";
 
 export function worldToScreen(worldCoords: Coord, camera: Camera) {
   return {

@@ -17,7 +17,6 @@ import {
   comparePointers,
   decrementPointer,
   getCommandLengths,
-  getInstruction,
   getInstructionState,
   incrementPointer,
   pointerAtEnd,
@@ -33,7 +32,6 @@ import { RenderObject } from "../render/render";
 import { PROGRESSBARWIDTH, RefObj } from "../common";
 import { SubtitleFuncs } from "../Subtitle";
 import { Command as RMCommand } from '../RightMenu'
-import { Link, TreeNode, TreeObject } from "../render/TreeObjects";
 
 /**
  * store state of tree before each command

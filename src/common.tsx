@@ -1,4 +1,3 @@
-import { TreeObject } from './render/TreeObjects';
 import { RenderObject } from './render/render';
 
 export interface Camera {

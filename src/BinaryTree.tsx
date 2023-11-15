@@ -1,4 +1,3 @@
-import { Root } from "react-dom/client";
 import { CANVASWIDTH, Coord, MINWIDTH } from "./common";
 
 interface N {

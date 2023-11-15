@@ -1,5 +1,4 @@
 import { Command } from "../BinaryTree";
-import { RefObj } from "../common";
 import { Link, TreeNode } from "../render/TreeObjects";
 import { RenderObject } from "../render/render";
 import { CommandState } from "./InsertValuesProcess";

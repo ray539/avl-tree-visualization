@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import {
   CANVASWIDTH,
   Camera,
@@ -159,7 +159,7 @@ export default function Canvas({
           mouseRef.current.drag = true;
           anchor.current = screenToWorld(mouseRef.current.pos, camera);
         }}
-        onMouseUp={(e) => {
+        onMouseUp={() => {
           canvasRef!.current!.style.cursor = "auto";
           mouseRef.current.drag = false;
         }}
