@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import "./App.css";
 import { BinaryTree } from "./BinaryTree";
 import {Command} from "./RightMenu.tsx"
@@ -33,13 +33,12 @@ export default function App() {
     skipValue: function (): void {
       throw new Error("Function not implemented.");
     },
-    jumpToStep: function (commandIndex: number, stepIndex: number): void {
+    jumpToStep: function (_commandIndex: number, _stepIndex: number): void {
+    },
+    processInsertCommand: function (_value: string): void {
       throw new Error("Function not implemented.");
     },
-    processInsertCommand: function (value: string): void {
-      throw new Error("Function not implemented.");
-    },
-    setPaused: function (paused: boolean): void {
+    setPaused: function (_paused: boolean): void {
       throw new Error("Function not implemented.");
     },
     goBackInstruction: function (): void {
@@ -51,36 +50,36 @@ export default function App() {
   };
 
   let rightMenuFuncs: RightMenuFuncs = {
-    addSteps: function (stepStrs: string[], commandIndex: number): void {
+    addSteps: function (_stepStrs: string[], _commandIndex: number): void {
       throw new Error("Function not implemented.");
     },
-    selectStep: function (pointer: Pointer): void {
+    selectStep: function (_pointer: Pointer): void {
       throw new Error("Function not implemented.");
     },
-    addCommand: function (commandStr: string): void {
+    addCommand: function (_commandStr: string): void {
       throw new Error("Function not implemented.");
     },
-    setCommandsP: function (newCommands: Command[]): void {
+    setCommandsP: function (_newCommands: Command[]): void {
       throw new Error("Function not implemented.");
     },
     clearCommands: function (): void {
       throw new Error("Function not implemented.");
     },
-    addStep: function (stepStr: string, commandIndex: number): void {
+    addStep: function (_stepStr: string, _commandIndex: number): void {
       throw new Error("Function not implemented.");
     }
   };
 
   let subtitleFuncs: SubtitleFuncs = {
-    setSubtitleP: function (value: string): void {
+    setSubtitleP: function (_value: string): void {
     }
   }
 
   let bottomBarFuncs: BottomBarFuncs = {
-    setPBarWidthP: function (width: number): void {
+    setPBarWidthP: function (_width: number): void {
       throw new Error("Function not implemented.");
     },
-    setIsPausedP: function (paused: boolean): void {
+    setIsPausedP: function (_paused: boolean): void {
       throw new Error("Function not implemented.");
     }
   }
