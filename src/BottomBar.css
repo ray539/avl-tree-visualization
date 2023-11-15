@@ -1,0 +1,49 @@
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  border-top: 1px solid rgb(180, 180, 180);
+  background-color: rgb(196, 196, 196);
+  width: 100%;
+  box-shadow: 0 -5px 5px rgb(180, 180, 180);
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+}
+
+img {
+  height: 30px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.progress-bar-wrapper {
+  position: relative;
+  width: 400px;
+  height: 10px;
+  background-color: white;
+  margin-left: 10px;
+}
+
+.progress-bar-bar {
+  position: absolute;
+  top: 0;
+  height: 10px;
+  width: 100px;
+  background-color: var(--blue1);
+}
+
+button {
+  border: none;
+  background-color: var(--blue1);
+  color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
