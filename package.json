@@ -1,6 +1,6 @@
 {
   "homepage": "https://ray539.github.io/avl-tree-visualization",
-  "name": "drawing-app",
+  "name": "avl-tree-visualization",
   "private": true,
   "version": "0.0.0",
   "type": "module",
